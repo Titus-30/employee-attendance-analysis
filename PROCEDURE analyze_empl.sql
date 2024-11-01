@@ -70,6 +70,7 @@ EXCEPTION
     WHEN OTHERS THEN
         DBMS_OUTPUT.PUT_LINE('An error occurred: ' || SQLERRM);
 END analyze_employee_attendance;
+-- Here We call the procedure 
 /
 BEGIN
     analyze_employee_attendance(10, 2024);
