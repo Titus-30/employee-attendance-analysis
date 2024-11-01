@@ -87,6 +87,39 @@ NO_DATA_FOUND: Catches cases where no data matches the query.
 
 OTHERS: Catches any other errors, displaying the error message (SQLERRM).
 
+Example Procedure Call
+
+To execute the procedure and analyze attendance records for October 2024, you would use the following block of code:
+
+![image](https://github.com/user-attachments/assets/69304ac7-88bc-4a1c-affe-f15a2838998f)
+
+Procedure Call: The BEGIN ... END; block calls the analyze_employee_attendance procedure, passing 10 (October) and 2024 as parameters. This triggers the entire process described above, outputting the attendance statistics for all employees for that month.
+
+Summary
+
+This procedure systematically processes each employee’s attendance for a specified month and year:
+
+Retrieves all employees from the employees table.
+
+Fetches each employee’s attendance for the month.
+
+Counts the present and absent days.
+
+Calculates and outputs each employee's attendance statistics and percentage.
+
+Project Purpose
+
+This procedure provides a quick way for the company to:
+
+Calculate monthly attendance statistics for each employee.
+
+Identify employees with high absenteeism or consistent attendance.
+
+Help in decision-making regarding employee engagement and attendance policies.
+
+By calling the procedure with specific month and year parameters, the company can efficiently analyze attendance data and derive valuable insights to improve overall workforce management.
+
+
 This procedure analyzes employee attendance for a specified month and year, using a combination of loops, conditions, and cursors to process each employee's data and handle any exceptions.
 
 
