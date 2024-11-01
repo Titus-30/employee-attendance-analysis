@@ -1,4 +1,5 @@
-EMPLOYEE ATTENDANCE ANALYSIS
+Employee Attendance Analysis Procedure
+This repository contains the analyze_employee_attendance PL/SQL stored procedure, designed to analyze and report attendance details for employees within a specified month and year.
 
 Project Overview and Purpose
 
